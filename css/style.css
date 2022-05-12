@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.control_panel,
+.wrapper {
+  width: 320px;
+}
+
+input {
+  box-sizing: border-box;
+  font-size: 2em;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin: 2px;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+.control_panel {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px 42px;
+}

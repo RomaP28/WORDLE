@@ -3,8 +3,8 @@ let randomWord = getRandomWord()
 let currentRow = 0;
 
 function getRandomWord() {
-  let ran = Math.floor(Math.random() * dictionary.length - 1)
-  console.log(dictionary[ran])
+  let ran = dictionary[Math.floor(Math.random() * dictionary.length - 1)]
+  console.log(ran)
   return dictionary[ran]
 }
 

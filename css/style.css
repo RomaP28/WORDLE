@@ -30,7 +30,7 @@ button {
   padding: 5px 42px;
 }
 
-@media (min-width: 1024px) and (max-width: 1240px) {
+@media (min-width: 1025px) {
   .wrapper {
     width: 320px;
   }
@@ -42,38 +42,29 @@ button {
   }
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    width: 100%;
-  }
-
-  input {
-    font-size: 8vh;
-    width: 19%;
-    height: 10vh;
-  }
-}
-
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
   .wrapper {
     width: 90%;
   }
 
-  input {
-    font-size: 8vh;
-    width: 19%;
-    height: 10vh;
-  }
-}
-
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
-  .wrapper {
-    width: 90%;
+  .title {
+    font-size: 5em;
   }
 
   input {
-    font-size: 8vh;
+    font-size: 6em;
     width: 19%;
     height: 10vh;
+  }
+
+  .control_panel {
+    margin-top: 40px;
+
+  }
+
+  button {
+    font-size: 2em;
+    width: 30%;
+    height: 100px;
   }
 }

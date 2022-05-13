@@ -5,7 +5,7 @@ let currentRow = 0;
 function getRandomWord() {
   let ran = dictionary[Math.floor(Math.random() * dictionary.length - 1)]
   console.log(ran)
-  return dictionary[ran]
+  return ran
 }
 
 function createField() {

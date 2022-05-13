@@ -3,7 +3,9 @@ let randomWord = getRandomWord()
 let currentRow = 0;
 
 function getRandomWord() {
-  return dictionary[Math.floor(Math.random() * dictionary.length - 1)]
+  let ran = Math.floor(Math.random() * dictionary.length - 1)
+  console.log(dictionary[ran])
+  return dictionary[ran]
 }
 
 function createField() {

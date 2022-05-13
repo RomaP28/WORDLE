@@ -73,7 +73,6 @@ function resetGame() {
   }
   currentRow = 0
   randomWord = getRandomWord()
-  console.log(randomWord)
   activateRow()
 }
 

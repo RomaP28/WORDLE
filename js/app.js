@@ -4,11 +4,9 @@ let currentRow = 0;
 
 function getRandomWord() {
   return dictionary[Math.floor(Math.random() * dictionary.length - 1)]
-  // return 'акбар'
 }
 
 function createField() {
-  console.log(randomWord)
   const field = document.querySelector('.field')
   for (let i = 0; i < 30; i++) {
     const input = document.createElement('input')
@@ -27,7 +25,6 @@ function createField() {
           i > currentRow && document.getElementById(i - 1).focus()
         }
       }
-
     })
   }
   activateRow()
@@ -101,3 +98,4 @@ document.getElementById('reset').addEventListener('click', function () {
 })
 
 createField()
+document.getElementById(currentRow).focus()

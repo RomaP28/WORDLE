@@ -1,11 +1,12 @@
 .wrapper {
   margin: 0 auto;
   text-align: center;
+  width: 320px;
+  height: 100%;
 }
 
-.control_panel,
-.wrapper {
-  width: 320px;
+.control_panel {
+  width: 100%;
 }
 
 input {
